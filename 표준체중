@@ -1,0 +1,28 @@
+#include<stdio.h>
+
+int main(){
+
+	float cm;
+	char name[10],fa;
+
+	printf("f/m\n");
+	scanf("%c",&fa);
+
+	if(fa == 'm'){
+		printf("이름: ");
+		scanf("%s",&name);
+		printf("키 :");
+		scanf("%f",&cm);
+		printf("당신의 표준체중은 %f 입니다.",(cm-100)*0.9);
+	}
+
+	else{
+		printf("이름: ");
+		scanf("%s",&name);
+		printf("키 :");
+		scanf("%f",&cm);
+		printf("당신의 표준체중은 %f 입니다.",(cm-100)*0.85);
+
+	}
+
+}
