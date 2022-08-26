@@ -1,0 +1,15 @@
+info = {'jua':'50','min':'13','te':'40'}
+
+search = input("아이디 입력 :")
+
+if search in info.keys():
+    searchp = input("비밀번호 입력:")
+    if searchp in info.values():
+        print("로그인 됩니다.")
+    else:
+        print("비밀번호가 틀렸습니다.")
+else:
+    print("아이디가 틀렸습니다.")
+    
+    
+        
